@@ -1,0 +1,9 @@
+pip install Flask flask-swagger-ui flasgger mysql-connector-python
+
+python -m venv venv
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
+.\venv\Scripts\Activate.ps1
+
+pip install flask-cors
